@@ -1,27 +1,27 @@
 # 🚀 E-Commerce Database Project  
 
-📌 **Amaç**: Bu proje, **Amazon, Trendyol ve HepsiBurada** gibi büyük e-ticaret platformlarının veri yapılarını analiz ederek **bütünleşik ve optimize edilmiş bir veritabanı modeli** tasarlamayı hedefler.   
+📌 Bu projede, **Amazon, Trendyol ve HepsiBurada** gibi büyük e-ticaret platformlarının veri yapılarını analiz ederek **bütünleşik ve optimize edilmiş bir veritabanı modeli** tasarladım.   
 
 ---
 
 ## 📊 Proje Hedefleri  
 
-✅ **Mevcut Sistemleri Analiz Et** – Amazon, Trendyol ve HepsiBurada’nın veri gereksinimlerini inceleyerek **ortak ve özgün özelliklerini** belirle.  
+✅ **Mevcut Sistemlerin Analiz Edilmesi** – Amazon, Trendyol ve HepsiBurada’nın veri gereksinimlerini inceleyerek **ortak ve özgün özelliklerin** belirlenmesi.  
 
-✅ **EER Diyagramları Oluştur** – Her platform için **gelişmiş varlık-ilişki (EER) modeli** oluştur.  
+✅ **EER Diyagramlarının Oluşturulması** – Her platform için **gelişmiş varlık-ilişki (EER) modeli**.  
 
-✅ **Birleşik EER Modeli Geliştir** – Ortak yapıları **entegrasyon** yaparak, tüm sistemleri kapsayan **genişletilebilir** bir model oluştur.  
+✅ **Birleşik EER Modelinin Geliştirilmesi** – Ortak yapıları **entegrasyon** yaparak, tüm sistemleri kapsayan **genişletilebilir** bir model oluşturulması.  
 
-✅ **SQL Tabanlı Gerçekleme** – EER modelini **ilişkisel veritabanı** şeması olarak **DDL (Data Definition Language) komutlarıyla** uygula.  
+✅ **SQL Tabanlı Gerçekleme** – EER modelini **ilişkisel veritabanı** şeması olarak **DDL (Data Definition Language) komutlarıyla** uygulanması.  
 
-✅ **Test İçin Veri Gir** – Veritabanını **örnek verilerle doldur** ve sorgulama testleri yap.  
+✅ **Test İçin Veri Girişi** – **Veritabanını örnekleri** ve testleri.  
 
 ---
 
 ## 📊 Veritabanı Tasarımı  
 
 ### **1️⃣ Bireysel Platform Analizi**  
-Her platform için **kapsamlı bir veri analizi** yapıldı. Ana bileşenler şunlardır:  
+Her platform için **kapsamlı bir veri analizi** yapıldı. Ana bileşenler:  
 
 - 👥 **Kullanıcılar** (Müşteriler & Satıcılar)  
 - 🛍️ **Ürünler & Stok Yönetimi**  
@@ -34,7 +34,7 @@ Her platform için **kapsamlı bir veri analizi** yapıldı. Ana bileşenler şu
 ---
 
 ### **2️⃣ EER Diyagramları**  
-📌 **Her platform için ayrı bir EER modeli oluşturuldu:**  
+📌 **Her platform için ayrı bir EER modeli:**  
 
 - **📄 Amazon EER** → `docs/Amazon_EER.pdf`  
 - **📄 Trendyol EER** → `docs/Trendyol_EER.pdf`  

@@ -1,27 +1,29 @@
 # 🚀 E-Commerce Database Project  
 
-📌 Bu projede, **Amazon, Trendyol ve HepsiBurada** gibi büyük e-ticaret platformlarının veri yapılarını analiz ederek **bütünleşik ve optimize edilmiş bir veritabanı modeli** tasarladım.   
+📌 **Günümüz e-ticaret devleri, büyük ve karmaşık veri yapılarıyla çalışıyor.**  
+Bu projede, **Amazon, Trendyol ve HepsiBurada** platformlarının veri modellerini analiz ederek **optimize edilmiş, ölçeklenebilir ve bütünleşik bir veritabanı modeli** geliştirdim.  
 
 ---
 
-## 📊 Proje Hedefleri  
+## 🎯 Proje Hedefleri  
 
-✅ **Mevcut Sistemlerin Analiz Edilmesi** – Amazon, Trendyol ve HepsiBurada’nın veri gereksinimlerini inceleyerek **ortak ve özgün özelliklerin** belirlenmesi.  
+✅ **Mevcut Sistemlerin Analizi** – Amazon, Trendyol ve HepsiBurada’nın veri gereksinimleri incelenerek **ortak ve platforma özgü özellikler** belirlendi.  
 
-✅ **EER Diyagramlarının Oluşturulması** – Her platform için **gelişmiş varlık-ilişki (EER) modeli**.  
+✅ **EER Diyagramları** – Her platformun **varlık-ilişki (EER) modeli** oluşturuldu ve detaylı analiz yapıldı.  
 
-✅ **Birleşik EER Modelinin Geliştirilmesi** – Ortak yapıları **entegrasyon** yaparak, tüm sistemleri kapsayan **genişletilebilir** bir model oluşturulması.  
+✅ **Birleşik ve Optimizasyonlu Model** – Ortak veri yapıları birleştirilerek, tüm sistemleri kapsayan **genişletilebilir ve modüler** bir model tasarlandı.  
 
-✅ **SQL Tabanlı Gerçekleme** – EER modelini **ilişkisel veritabanı** şeması olarak **DDL (Data Definition Language) komutlarıyla** uygulanması.  
+✅ **SQL Uygulaması** – Son model, ilişkisel veritabanı şeması olarak **DDL (Data Definition Language) komutlarıyla** kodlandı.  
 
-✅ **Test İçin Veri Girişi** – **Veritabanını örnekleri** ve testleri.  
+✅ **Test ve Veri Girişi** – Gerçekçi test senaryoları için **örnek veri kümeleri eklendi** ve sorgular çalıştırıldı.  
 
 ---
 
 ## 📊 Veritabanı Tasarımı  
 
-### **1️⃣ Bireysel Platform Analizi**  
-Her platform için **kapsamlı bir veri analizi** yapıldı. Ana bileşenler:  
+### 🔍 1️⃣ Platform Bazlı Analiz  
+
+Her platform için yapılan detaylı analiz sonucunda belirlenen ana bileşenler:  
 
 - 👥 **Kullanıcılar** (Müşteriler & Satıcılar)  
 - 🛍️ **Ürünler & Stok Yönetimi**  
@@ -33,34 +35,48 @@ Her platform için **kapsamlı bir veri analizi** yapıldı. Ana bileşenler:
 
 ---
 
-### **2️⃣ EER Diyagramları**  
-📌 **Her platform için ayrı bir EER modeli:**  
+### 📌 2️⃣ EER Diyagramları  
 
-- **📄 Amazon EER** → `docs/Amazon_EER.pdf`  
-- **📄 Trendyol EER** → `docs/Trendyol_EER.pdf`  
-- **📄 HepsiBurada EER** → `docs/HepsiBurada_EER.pdf`  
+Her platform için ayrı **EER diyagramları** oluşturuldu:  
 
-🔍 **Hedef:** Veri yapılarındaki **benzerlikleri ve farklılıkları analiz etmek** ve **optimize edilmiş bir model oluşturmak**.  
+- 📄 [Amazon EER](docs/Amazon_EER.pdf)  
+- 📄 [Trendyol EER](docs/Trendyol_EER.pdf)  
+- 📄 [HepsiBurada EER](docs/HepsiBurada_EER.pdf)  
 
----
-
-### **3️⃣ Birleşik EER Modeli**  
-**Amazon, Trendyol ve HepsiBurada** platformlarının **ortak özellikleri birleştirildi**, benzersiz özellikler **korundu** ve **genişletilebilir bir model** oluşturuldu.  
-
-📄 **Sonuç:** `docs/ECommerceCombined_EER.pdf` → **Tam entegre edilmiş EER modeli**.  
+🔍 **Amaç:** Platformların veri modellerindeki **benzerlikleri ve farklılıkları analiz etmek**.  
 
 ---
 
-### **4️⃣ SQL Uygulaması**  
-Tüm şema, **ilişkisel veritabanı modeli** olarak **DDL (Data Definition Language) komutlarıyla** dönüştürüldü.  
+### 🔄 3️⃣ Optimizasyonlu Birleşik EER Modeli  
+
+Amazon, Trendyol ve HepsiBurada’nın ortak özellikleri **tek bir modelde birleştirildi**.  
+Benzersiz yapılar korunarak **esnek ve ölçeklenebilir** bir model oluşturuldu.  
+
+📄 **Tam entegre model:** [ECommerceCombined_EER.pdf](docs/ECommerceCombined_EER.pdf)  
+
+---
+
+### 🛠️ 4️⃣ SQL Uygulaması  
+
+EER modeli, ilişkisel veritabanı şemasına dönüştürüldü ve **DDL komutlarıyla kodlandı.**  
 
 📜 **SQL Scriptleri:**  
-- 🛠️ **`sql/create_tables.sql`** → **Tabloları oluşturur**, kısıtlamaları tanımlar.  
-- 🏗️ **`sql/insert_sample_data.sql`** → **Test için örnek verileri ekler**.  
+- 🏗️ [Tabloları Oluştur](sql/create_tables.sql) → **Veritabanı tabloları ve kısıtlamaları içerir.**  
+- 📊 [Örnek Veri Ekle](sql/insert_sample_data.sql) → **Test için örnek veriler içerir.**  
 
 ---
 
 ## 📖 Dokümantasyon  
 
-📄 **`docs/Database_Report.pdf`** → **Detaylı veritabanı tasarım süreci** açıklanıyor.  
-📄 **`docs/MappingAllSteps.pdf`** → **EER modelinin ilişkisel şemaya dönüşüm adımları** bulunuyor.  
+📄 [📘 Database Report](docs/Database_Report.pdf) → **Tasarım süreci, karar mekanizmaları ve optimizasyonlar detaylı olarak açıklandı.**  
+
+📄 [📑 EER Modeli Dönüşüm Adımları](docs/MappingAllSteps.pdf) → **EER modelinin ilişkisel şemaya dönüşüm süreci anlatıldı.**  
+
+---
+
+## 🔍 Sonuç  
+
+Bu proje, **büyük ölçekli e-ticaret sistemleri için entegre ve optimize edilmiş bir veritabanı modeli sunmaktadır.**  
+Model, platformlar arası veri yönetimini kolaylaştırarak **ölçeklenebilir ve verimli** bir yapı sağlamaktadır.  
+
+📌 **Tüm detaylara erişmek için yukarıdaki dokümantasyon ve SQL script dosyalarına göz atabilirsiniz.**  

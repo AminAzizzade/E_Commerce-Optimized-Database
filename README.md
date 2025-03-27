@@ -39,7 +39,7 @@ Her platform için yapılan detaylı analiz sonucunda belirlenen ana bileşenler
 
 Her platform için ayrı **EER diyagramları** oluşturuldu:  
 
-- 📄 [Amazon EER](<iframe src="docs/Amazon_EER.pdf" width="100%" height="600px"></iframe>)  
+- 📄 [Amazon EER](Amazon_EER.html)  
 - 📄 [Trendyol EER](docs/Trendyol_EER.pdf)  
 - 📄 [HepsiBurada EER](docs/HepsiBurada_EER.pdf)  
 

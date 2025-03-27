@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon EER PDF Viewer</title>
+</head>
+<body>
+  <h2>📄 Amazon EER</h2>
+  <iframe src="docs/Amazon_EER.pdf" width="100%" height="800px" style="border: none;"></iframe>
+</body>
+</html>

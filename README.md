@@ -38,14 +38,12 @@ Her platform için yapılan detaylı analiz sonucunda belirlenen ana bileşenler
 ### 📌 2️⃣ EER Diyagramları  
 
 Her platform için ayrı **EER diyagramları** oluşturuldu:  
-📄 [All Tables PDF'yi Tarayıcıda Aç](https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/tree/main/docs/AllTabless.pdf)
-📄 [All Tables PDF'yi Tarayıcıda Aç](https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/AllTabless.pdf)
-[PDF'yi Google Docs Viewer ile Görüntüle](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/AllTabless.pdf)
+[All Tables PDF](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/AllTabless.pdf)
 
 
-- 📄 [Amazon EER](docs/Amazon_EER.pdf)  
-- 📄 [Trendyol EER](docs/Trendyol_EER.pdf)  
-- 📄 [HepsiBurada EER](docs/HepsiBurada_EER.pdf)  
+- 📄 [Amazon EER](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/Amazon_EER.pdf) 
+- 📄 [Trendyol EER](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/Trendyol_EER.pdf)  
+- 📄 [HepsiBurada EER](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/HepsiBurada_EER.pdf) 
 
 🔍 **Amaç:** Platformların veri modellerindeki **benzerlikleri ve farklılıkları analiz etmek**.  
 

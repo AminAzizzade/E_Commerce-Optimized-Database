@@ -54,7 +54,7 @@ Her platform için ayrı **EER diyagramları** oluşturuldu:
 Amazon, Trendyol ve HepsiBurada’nın ortak özellikleri **tek bir modelde birleştirildi**.  
 Benzersiz yapılar korunarak **esnek ve ölçeklenebilir** bir model oluşturuldu.  
 
-📄 **Tam entegre model:** [ECommerceCombined_EER.pdf](docs/ECommerceCombined_EER.pdf)  
+📄 **Tam entegre model:** [ECommerceCombined_EER.pdf](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/ECommerceCombined_EER.pdf)  
 
 ---
 
@@ -70,9 +70,9 @@ EER modeli, ilişkisel veritabanı şemasına dönüştürüldü ve **DDL komutl
 
 ## 📖 Dokümantasyon  
 
-📄 [📘 Database Report](docs/Database_Report.pdf) → **Tasarım süreci, karar mekanizmaları ve optimizasyonlar detaylı olarak açıklandı.**  
+📄 [📘 Database Report](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/Database_Report.pdf) → **Tasarım süreci, karar mekanizmaları ve optimizasyonlar detaylı olarak açıklandı.**  
 
-📄 [📑 EER Modeli Dönüşüm Adımları](docs/MappingAllSteps.pdf) → **EER modelinin ilişkisel şemaya dönüşüm süreci anlatıldı.**  
+📄 [📑 EER Modeli Dönüşüm Adımları](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/MappingAllSteps.pdf) → **EER modelinin ilişkisel şemaya dönüşüm süreci anlatıldı.**  
 
 ---
 

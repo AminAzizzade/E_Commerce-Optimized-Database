@@ -40,6 +40,8 @@ Her platform için yapılan detaylı analiz sonucunda belirlenen ana bileşenler
 Her platform için ayrı **EER diyagramları** oluşturuldu:  
 📄 [All Tables PDF'yi Tarayıcıda Aç](https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/tree/main/docs/AllTabless.pdf)
 📄 [All Tables PDF'yi Tarayıcıda Aç](https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/AllTabless.pdf)
+[PDF'yi Google Docs Viewer ile Görüntüle](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/AllTabless.pdf)
+
 
 - 📄 [Amazon EER](docs/Amazon_EER.pdf)  
 - 📄 [Trendyol EER](docs/Trendyol_EER.pdf)  

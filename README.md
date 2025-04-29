@@ -1,84 +1,83 @@
 # 🚀 E-Commerce Database Project  
 
-📌 **Günümüz e-ticaret devleri, büyük ve karmaşık veri yapılarıyla çalışıyor.**  
-Bu projede, **Amazon, Trendyol ve HepsiBurada** platformlarının veri modellerini analiz ederek **optimize edilmiş, ölçeklenebilir ve bütünleşik bir veritabanı modeli** geliştirdim.  
+📌 **Today's e-commerce giants operate with large and complex data structures.**  
+In this project, I analyzed the data models of **Amazon, Trendyol, and HepsiBurada**, and developed an **optimized, scalable, and unified relational database model**.  
 
 ---
 
-## 🎯 Proje Hedefleri  
+## 🎯 Project Goals  
 
-✅ **Mevcut Sistemlerin Analizi** – Amazon, Trendyol ve HepsiBurada’nın veri gereksinimleri incelenerek **ortak ve platforma özgü özellikler** belirlendi.  
+✅ **Analysis of Existing Systems** – Reviewed the data requirements of Amazon, Trendyol, and HepsiBurada, identifying **common and platform-specific features**.  
 
-✅ **EER Diyagramları** – Her platformun **varlık-ilişki (EER) modeli** oluşturuldu ve detaylı analiz yapıldı.  
+✅ **EER Diagrams** – Created detailed **Entity-Relationship (EER) models** for each platform.  
 
-✅ **Birleşik ve Optimizasyonlu Model** – Ortak veri yapıları birleştirilerek, tüm sistemleri kapsayan **genişletilebilir ve modüler** bir model tasarlandı.  
+✅ **Unified and Optimized Model** – Merged shared data structures into a **scalable and modular** unified model.  
 
-✅ **SQL Uygulaması** – Son model, ilişkisel veritabanı şeması olarak **DDL (Data Definition Language) komutlarıyla** kodlandı.  
+✅ **SQL Implementation** – Developed the final model as a **relational database schema using DDL (Data Definition Language) scripts**.  
 
-✅ **Test ve Veri Girişi** – Gerçekçi test senaryoları için **örnek veri kümeleri eklendi** ve sorgular çalıştırıldı.  
-
----
-
-## 📊 Veritabanı Tasarımı  
-
-### 🔍 1️⃣ Platform Bazlı Analiz  
-
-Her platform için yapılan detaylı analiz sonucunda belirlenen ana bileşenler:  
-
-- 👥 **Kullanıcılar** (Müşteriler & Satıcılar)  
-- 🛍️ **Ürünler & Stok Yönetimi**  
-- 🛒 **Alışveriş Sepeti Sistemi**  
-- 📦 **Siparişler & Sipariş Kalemleri**  
-- 💳 **Ödeme & Kampanya Sistemleri**  
-- 🚚 **Kargo & Lojistik Yönetimi**  
-- ⭐ **İnceleme & Değerlendirme**  
+✅ **Testing and Sample Data** – Added **sample datasets** and executed queries for realistic testing scenarios.  
 
 ---
 
-### 📌 2️⃣ EER Diyagramları  
+## 📊 Database Design  
 
-Her platform için ayrı **EER diyagramları** oluşturuldu:  
+### 🔍 1️⃣ Platform-Based Analysis  
+
+Main components identified through detailed analysis for each platform:
+
+- 👥 **Users** (Customers & Sellers)  
+- 🛍️ **Product & Inventory Management**  
+- 🛒 **Shopping Cart System**  
+- 📦 **Orders & Order Items**  
+- 💳 **Payments & Promotions**  
+- 🚚 **Shipping & Logistics Management**  
+- ⭐ **Reviews & Ratings**  
+
+---
+
+### 📌 2️⃣ EER Diagrams  
+
+Separate **EER diagrams** were created for each platform:  
 [All Tables PDF](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/AllTabless.pdf)
 
-
-- 📄 [Amazon EER](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/Amazon_EER.pdf) 
+- 📄 [Amazon EER](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/Amazon_EER.pdf)  
 - 📄 [Trendyol EER](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/Trendyol_EER.pdf)  
-- 📄 [HepsiBurada EER](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/HepsiBurada_EER.pdf) 
+- 📄 [HepsiBurada EER](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/HepsiBurada_EER.pdf)  
 
-🔍 **Amaç:** Platformların veri modellerindeki **benzerlikleri ve farklılıkları analiz etmek**.  
-
----
-
-### 🔄 3️⃣ Optimizasyonlu Birleşik EER Modeli  
-
-Amazon, Trendyol ve HepsiBurada’nın ortak özellikleri **tek bir modelde birleştirildi**.  
-Benzersiz yapılar korunarak **esnek ve ölçeklenebilir** bir model oluşturuldu.  
-
-📄 **Tam entegre model:** [ECommerceCombined_EER.pdf](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/ECommerceCombined_EER.pdf)  
+🔍 **Goal:** Analyze **similarities and differences** in the data models of each platform.
 
 ---
 
-### 🛠️ 4️⃣ SQL Uygulaması  
+### 🔄 3️⃣ Unified Optimized EER Model  
 
-EER modeli, ilişkisel veritabanı şemasına dönüştürüldü ve **DDL komutlarıyla kodlandı.**  
+Common features from Amazon, Trendyol, and HepsiBurada were **combined into a single unified model**.  
+Unique structures were preserved to create a **flexible and scalable** design.
 
-📜 **SQL Scriptleri:**  
-- 🏗️ [Tabloları Oluştur](sql/create_tables.sql) → **Veritabanı tabloları ve kısıtlamaları içerir.**  
-- 📊 [Örnek Veri Ekle](sql/insert_sample_data.sql) → **Test için örnek veriler içerir.**  
-
----
-
-## 📖 Dokümantasyon  
-
-📄 [📘 Database Report](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/Database_Report.pdf) → **Tasarım süreci, karar mekanizmaları ve optimizasyonlar detaylı olarak açıklandı.**  
-
-📄 [📑 EER Modeli Dönüşüm Adımları](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/MappingAllSteps.pdf) → **EER modelinin ilişkisel şemaya dönüşüm süreci anlatıldı.**  
+📄 **Fully Integrated Model:** [ECommerceCombined_EER.pdf](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/ECommerceCombined_EER.pdf)  
 
 ---
 
-## 🔍 Sonuç  
+### 🛠️ 4️⃣ SQL Implementation  
 
-Bu proje, **büyük ölçekli e-ticaret sistemleri için entegre ve optimize edilmiş bir veritabanı modeli sunmaktadır.**  
-Model, platformlar arası veri yönetimini kolaylaştırarak **ölçeklenebilir ve verimli** bir yapı sağlamaktadır.  
+The EER model was converted into a relational database schema and **coded using DDL commands**.
 
-📌 **Tüm detaylara erişmek için yukarıdaki dokümantasyon ve SQL script dosyalarına göz atabilirsiniz.**  
+📜 **SQL Scripts:**  
+- 🏗️ [Create Tables](sql/create_tables.sql) → **Contains table definitions and constraints.**  
+- 📊 [Insert Sample Data](sql/insert_sample_data.sql) → **Provides sample data for testing.**  
+
+---
+
+## 📖 Documentation  
+
+📄 [📘 Database Report](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/Database_Report.pdf) → **Detailed explanation of design process, decision-making, and optimizations.**  
+
+📄 [📑 EER-to-Relational Mapping Steps](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AminAzizzade/E_Commerce-Optimized-Database/main/docs/MappingAllSteps.pdf) → **Step-by-step guide for mapping EER models to relational schemas.**  
+
+---
+
+## 🔍 Conclusion  
+
+This project provides an **integrated and optimized database model for large-scale e-commerce systems**.  
+The model simplifies **cross-platform data management** while ensuring **scalability and efficiency**.
+
+📌 **You can explore all details through the documentation and SQL script files linked above.**  
